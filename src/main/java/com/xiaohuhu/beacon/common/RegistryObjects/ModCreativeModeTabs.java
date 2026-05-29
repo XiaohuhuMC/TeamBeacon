@@ -20,7 +20,7 @@ public class ModCreativeModeTabs {
                     .icon(() -> new ItemStack(ModItems.BEACON_CORE.get()))
                     .title(Component.translatable("itemGroup.team_beacon_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.BEACON_CORE);
+                        output.accept(ModBlocks.TEAM_BEACON_BLOCK);
                     }).build());
     public static final Supplier<CreativeModeTab> TEAM_BEACON_MATERIAL_TAB =
             CREATIVE_MODE_TABS.register("team_beacon_material_tab", () -> CreativeModeTab.builder()

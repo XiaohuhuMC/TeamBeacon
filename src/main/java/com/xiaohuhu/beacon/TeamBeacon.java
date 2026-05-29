@@ -1,5 +1,6 @@
 package com.xiaohuhu.beacon;
 
+import com.xiaohuhu.beacon.common.RegistryObjects.ModBlocks;
 import com.xiaohuhu.beacon.common.RegistryObjects.ModCreativeModeTabs;
 import com.xiaohuhu.beacon.common.RegistryObjects.ModItems;
 import org.slf4j.Logger;
@@ -59,6 +60,7 @@ public class TeamBeacon {
         //调用注册类中的方法
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);

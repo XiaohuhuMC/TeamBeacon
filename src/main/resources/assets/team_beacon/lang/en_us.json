@@ -1,6 +1,8 @@
 {
   "item.team_beacon.material.beacon_core": "Beacon Core",
 
+  "block.team_beacon.team_beacon_block": "Team Beacon",
+
   "itemGroup.team_beacon_tab": "Team Beacon Mod",
   "itemGroup.team_beacon_material_tab": "Material Tab",
 
