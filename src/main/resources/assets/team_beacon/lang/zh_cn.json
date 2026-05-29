@@ -1,0 +1,14 @@
+{
+  "item.team_beacon.material.beacon_core": "信标核心",
+
+  "itemGroup.team_beacon_tab": "团队信标",
+  "itemGroup.team_beacon_material_tab": "材料",
+
+  "team_beacon.configuration.title": "Team Beacon Configs",
+  "team_beacon.configuration.section.team_beacon.common.toml": "Team Beacon Configs",
+  "team_beacon.configuration.section.team_beacon.common.toml.title": "Team Beacon Configs",
+  "team_beacon.configuration.items": "Item List",
+  "team_beacon.configuration.logDirtBlock": "Log Dirt Block",
+  "team_beacon.configuration.magicNumberIntroduction": "Magic Number Text",
+  "team_beacon.configuration.magicNumber": "Magic Number"
+}
