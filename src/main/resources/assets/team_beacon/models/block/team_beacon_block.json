@@ -1,6 +1,6 @@
 {   "parent": "block/block",
     "textures": {
-        "particle": "team_beacon:block/glass",
+        "particle": "block/glass",
         "glass": "team_beacon:block/glass",
         "obsidian": "team_beacon:block/obsidian",
         "beacon": "team_beacon:block/beacon"
