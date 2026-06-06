@@ -12,5 +12,7 @@
   "team_beacon.configuration.items": "Item List",
   "team_beacon.configuration.logDirtBlock": "Log Dirt Block",
   "team_beacon.configuration.magicNumberIntroduction": "Magic Number Text",
-  "team_beacon.configuration.magicNumber": "Magic Number"
+  "team_beacon.configuration.magicNumber": "Magic Number",
+  "gui.team_beacon.team_beacon_block.title": "Team Beacon",
+  "gui.team_beacon.custom_text": "test ui"
 }

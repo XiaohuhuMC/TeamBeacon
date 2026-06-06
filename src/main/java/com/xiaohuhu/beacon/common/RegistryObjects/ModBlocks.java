@@ -1,6 +1,7 @@
 package com.xiaohuhu.beacon.common.RegistryObjects;
 
 import com.xiaohuhu.beacon.TeamBeacon;
+import com.xiaohuhu.beacon.common.block.TeamBeaconBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
@@ -16,8 +17,9 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(TeamBeacon.MOD_ID);
 
-    public static final DeferredBlock<Block> TEAM_BEACON_BLOCK =
-            registerBlocks("team_beacon_block", () -> new Block(BlockBehaviour.Properties.of().strength(1.5F, 6.0F).mapColor(DyeColor.GREEN)));
+    public static final DeferredBlock<TeamBeaconBlock> TEAM_BEACON_BLOCK =
+            registerBlocks("team_beacon_block",
+                    () -> new TeamBeaconBlock(BlockBehaviour.Properties.of().strength(1.5F, 6.0F).mapColor(DyeColor.GREEN)));
 
     private static <T extends Block> void registerBlockItems (String name, DeferredBlock<T> block) {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));

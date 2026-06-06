@@ -3,6 +3,8 @@ package com.xiaohuhu.beacon;
 import com.xiaohuhu.beacon.common.RegistryObjects.ModBlocks;
 import com.xiaohuhu.beacon.common.RegistryObjects.ModCreativeModeTabs;
 import com.xiaohuhu.beacon.common.RegistryObjects.ModItems;
+import com.xiaohuhu.beacon.common.block.entity.ModBlockEntities;
+import com.xiaohuhu.beacon.common.menu.ModMenuTypes;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -51,6 +53,8 @@ public class TeamBeacon {
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
+        ModMenuTypes.MENUS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (TeamBeacon) to respond directly to events.
