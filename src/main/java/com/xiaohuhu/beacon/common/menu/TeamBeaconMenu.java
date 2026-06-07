@@ -1,6 +1,7 @@
 package com.xiaohuhu.beacon.common.menu;
 
 import com.xiaohuhu.beacon.common.RegistryObjects.ModBlocks;
+import com.xiaohuhu.beacon.common.RegistryObjects.ModMenuTypes;
 import com.xiaohuhu.beacon.common.block.entity.ModBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.player.Inventory;

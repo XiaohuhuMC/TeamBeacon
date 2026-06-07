@@ -13,6 +13,13 @@
   "team_beacon.configuration.logDirtBlock": "Log Dirt Block",
   "team_beacon.configuration.magicNumberIntroduction": "Magic Number Text",
   "team_beacon.configuration.magicNumber": "Magic Number",
-  "gui.team_beacon.team_beacon_block.title": "Team Beacon",
-  "gui.team_beacon.custom_text": "test ui"
+
+  "gui.team_beacon.choose_team": "选择你的队伍",
+  "gui.team_beacon.no_teams": "没有可用队伍",
+
+  "gui.team_beacon.choose_color": "选择队伍颜色",
+  "color.minecraft.red": "红色",
+  "color.minecraft.blue": "蓝色",
+  "color.minecraft.green": "绿色",
+  "color.minecraft.purple": "紫色"
 }

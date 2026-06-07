@@ -13,6 +13,13 @@
   "team_beacon.configuration.logDirtBlock": "Log Dirt Block",
   "team_beacon.configuration.magicNumberIntroduction": "Magic Number Text",
   "team_beacon.configuration.magicNumber": "Magic Number",
-  "gui.team_beacon.team_beacon_block.title": "Team Beacon",
-  "gui.team_beacon.custom_text": "test ui"
+
+  "gui.team_beacon.choose_team": "Choose your team",
+  "gui.team_beacon.no_teams": "No teams available",
+
+  "gui.team_beacon.choose_color": "Choose your team's color",
+  "color.minecraft.red": "Red",
+  "color.minecraft.blue": "Blue",
+  "color.minecraft.green": "Green",
+  "color.minecraft.purple": "Purple"
 }

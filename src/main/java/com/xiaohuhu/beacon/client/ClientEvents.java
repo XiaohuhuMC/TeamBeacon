@@ -2,7 +2,7 @@ package com.xiaohuhu.beacon.client;
 
 import com.xiaohuhu.beacon.TeamBeacon;
 import com.xiaohuhu.beacon.client.screen.TeamBeaconScreen;
-import com.xiaohuhu.beacon.common.menu.ModMenuTypes;
+import com.xiaohuhu.beacon.common.RegistryObjects.ModMenuTypes;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
